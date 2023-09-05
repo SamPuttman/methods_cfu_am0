@@ -6,12 +6,12 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 
-def greet_a_cat(cat_breed)
-    return "Meowdy, #{cat_breed} cat!"
+def greet_a_cat
+    return "Meowdy, cat!"
 end
 
-puts greet_a_cat("Siamese")
-puts greet_a_cat("Calico")
+puts greet_a_cat
+puts greet_a_cat
 
 # What is the return value of your method?
    # The return value is:
