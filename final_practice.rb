@@ -43,8 +43,7 @@ puts custom_greeting("Loki")
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
 def greet_person(first_name, middle_name, last_name)
-    full_name = "#{first_name} #{middle_name} #{last_name}"
-    return "Greetings, #{full_name}! You are looking snazzy today!"
+    return "Greetings, #{first_name} #{middle_name} #{last_name}! You are looking snazzy today!"
 end
 
 puts greet_person("Samuel", "James", "Puttman")
@@ -63,6 +62,11 @@ puts greet_person("Ronald", "MacGodDamn", "Donald")
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
+def square(integer)
+   return Math.sqrt(integer)
+end
+
+# Bonus
 def square(integer)
     result = Math.sqrt(integer)
     return "The square root of #{integer} is #{result}"
